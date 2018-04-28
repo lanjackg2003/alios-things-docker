@@ -102,14 +102,14 @@ echo "done"
 
 cd ${OBJ_DIR}/../
 rm -rf ${OBJ_DIR}
-echo -n "cloning AliOS Things code..."
+#echo -n "cloning AliOS Things code..."
 ALIOS_THINGS_URL="https://code.aliyun.com/vivid8710/AliOS-Things.git"
 #git clone -q ${ALIOS_THINGS_URL} ${OBJ_DIR}
 if [ $? -ne 0 ]; then
     echo -e "\nerror: clone code failed\n"
     exit 1
 fi
-echo "done"
+#echo "done"
 
 echo -n "installing toolchains ..."
 git clone -q ${TOOLCHAINS_URL} toolchain
