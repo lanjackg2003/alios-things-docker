@@ -21,6 +21,6 @@ so it mean you can build the firmware in windows which need linux environment.
 
 Windows support docker!!!!!!!!!!!!!!!!! 
 
-windows bat example:
+windows command-line example:
 
 docker run -v %cd%/AliOS-Things:/home/alios/AliOS-Things  --name alios-things-build -it jacklan/alios-things-docker
